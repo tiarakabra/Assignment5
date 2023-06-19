@@ -1,0 +1,10 @@
+l=[1,2,3,4,5]
+print("Sum =",sum(l))
+print("Smallest =",min(l))
+print("Largest =",max(l))
+l.sort()
+print("Ascending =",l)
+l.sort(reverse = True)
+print("Descending =",l)
+print(tuple(l))
+l.clear()
